@@ -1,0 +1,54 @@
+/* Responsive layout - makes a two, three and four-column-layout instead of one column */
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0em 1em;
+  }
+
+  .content {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header h1,
+  header p {
+    width: 40%;
+  }
+
+  /* makes 2 columns */
+  .column {
+    width: 50%;
+  }
+
+  .about {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about p {
+    width: 50%;
+    margin: 0;
+  }
+}
+
+/* makes 3 columns */
+@media screen and (min-width: 900px) {
+  .column {
+    width: 33%;
+  }
+}
+
+/* Create four equal columns that floats next to each other */
+@media screen and (min-width: 1200px) {
+  .column {
+    float: left;
+    width: 25%;
+  }
+}
