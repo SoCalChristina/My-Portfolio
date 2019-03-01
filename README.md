@@ -7,6 +7,7 @@
 
 ### Requirements
 Fork this repository and open the .html file in your web browser.
+This site is also currently hosted on github. (https://socalchristina.github.io/My-Portfolio/)  
 
 ### Resources
 The website uses the following fonts:
